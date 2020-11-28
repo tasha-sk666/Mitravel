@@ -1,0 +1,122 @@
+.featured-video {
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+.featured-video__title {
+	margin-bottom: 24px;
+	text-transform: capitalize;
+}
+
+.slider-container {
+	overflow-x: hidden;
+	margin-top: 25px;
+	padding: 100px 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.slider-container .swaper-wrapper {
+	padding-top: 150px;
+}
+
+.swiper-slide video {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slider-container .swiper-slide {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 890px;
+	min-height: 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.slider-container .swiper-slide::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60%;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+	opacity: 0;
+	translate: opacity 0.3s;
+}
+
+.slider-2 {
+	background-image: url('../../img/featured-banner.jpg');
+}
+
+.slider-3 {
+	background-image: url('../../img/sebastian-unrau-sp-p7uuT0tw-unsplash\ 1.jpg');
+}
+
+.slider-4 {
+	background-image: url('../../img/slider-2.jpg');
+}
+
+.slider-container .swiper-slide-active {
+	transform: scaleX(1.16) scaleY(1.2);
+	transition: transform 0.3s;
+}
+
+.slider-container .swiper-slide-active::after{
+	opacity: 1;
+	translate: opacity 0.3s;
+}
+
+.slider-container .swiper-slide-active:hover {
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.slider-title {
+	position: absolute;
+	padding-left: 31px;
+  padding-bottom: 26px;
+  font-weight: 700;
+  font-size: 28px;
+	line-height: 40px;
+	color: var(--white-color);
+	transition: transform 0.3s;
+	transform: translateY(200px);
+	z-index: 10;
+}
+
+.slider-container .swiper-slide-active .slider-title {
+	transition: transform 0.3s;
+	transform: translateY(0);
+}
+
+.slide-play {
+	position: absolute;
+	top: 27px;
+	left: 40px;
+	width: 97px;
+	height: 97px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-image: url('../../icon/Video-icon.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+	translate: opacity 0.3s;
+	z-index: 15;
+}
+
+.slider-container .swiper-slide-active .slide-play {
+	opacity: 1;
+	translate: opacity 0.3s;
+}
+

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mitravel</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="site-container">
+		<div class="menu">
+			<button class="btn-reset menu__close">
+				<span class="menu__close-line"></span>
+				<span class="menu__close-line"></span>
+			</button>
+			<nav class="menu__nav">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">Become a travel</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Featured</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Featured videos</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">NewsLetter</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Inspirations</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+		<header class="header">
+			<div class="container header__container flex">
+				<ul class="header__social social">
+					<li class="social__item">
+						<a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link social__link--tw" aria-label="Go to Twitter"></a>
+					</li>
+				</ul>
+				<a href="#" class="header__logo logo">Mitravel</a>
+				<button class="header__burger burger btn-reset" aria-label="Open menu">
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<section class="first">
+				<div class="container first__container">
+					<a href="#" class="first__link">new book</a>
+					<h1 class="first__title">Mother Earth Hosts Our Travels</h1>
+					<p class="first__desc">There are not many cities that have experienced such social and political extremes in
+						recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for the first
+						time in 400 years, became the radical center of 1960s social movements and witnessed a complete </p>
+					<button class="first__btn btn-reset btn">BUY THE BOOK </button>
+					<div class="first__bottom">
+						<form action="POST" class="first__form search-form">
+							<input type="text" class="search-form__field" placeholder="Search stories" maxlength="100">
+							<button type="submit" class="search-form__button btn-reset" aria-label="Search stories"></button>
+						</form>
+						<div class="first__slider main-slider">
+							<div class="swiper-container">
+								<button class="first__slider-btn btn-left btn-reset"></button>
+								<button class="first__slider-btn btn-right btn-reset"></button>
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="main-slider__media" style="background-image: url('./img/slider-moutain.jpg');">
+											<!-- <img src="img/slider-moutain.jpg" alt="Moutains"> -->
+										</div>
+										<p class="main-slider__text">wonderful moutain</p>
+									</div>
+									<div class="swiper-slide">
+										<div class="main-slider__media">
+											<button class="main__slider-btn slider__btn--play btn-reset"></button>
+											<video src="./videos/coverr-50-new-zealand-lake-tekapo-south-islandsummer-2808.mp4" muted
+											playsinline ></video>
+										</div>
+										<p class="main-slider__text">wonderful moutain</p>
+									</div>
+									<div class="swiper-slide">
+										<div class="main-slider__media" style="background-image: url('./img/slider-3.jpg');">
+											<!-- <img src="img/slider-3.jpg" alt="Moutains"> -->
+										</div>
+										<p class="main-slider__text">wonderful moutain</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="become">
+				<div class="container become__container">
+					<h2 class="section__title become__title">Become A Travel Pro In One Easy Lesson</h2>
+					<ul class="become__list">
+						<li class="become__item">
+							<img src="./img/first-card.jpg" alt="" class="become__image">
+							<div class="become__text">Vacation Home Rental Success</div>
+						</li>
+						<li class="become__item">
+							<img src="./img/second-card.png" alt="" class="become__image">
+							<div class="become__text">Vacation Home Rental Success</div>
+						</li>
+						<li class="become__item">
+							<img src="./img/third-card.jpg" alt="" class="become__image">
+							<div class="become__text">Vacation Home Rental Success</div>
+						</li>
+						<li class="become__item">
+							<img src="./img/fourth-card.jpg" alt="" class="become__image">
+							<div class="become__text">Vacation Home Rental Success</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="featured">
+				<div class="container featured__container">
+					<article class="featured__article blog-article">
+						<a href="" class="blog-article__category btn">Featured</a>
+						<h3 class="blog-article__title">How To Fly A Private Jet On Your Next Trip</h3>
+						<p class="blog-article__desc">The state of Utah in the United States is home to lots of beautiful National
+							Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
+						<a href="" class="blog-article__link">read article</a>
+					</article>
+
+				</div>
+				<div class="featured__stories">
+					<h2 class="featured__title">Featured Stories</h2>
+					<ul class="featured__list">
+						<li class="featured-list__item">
+							<article class="featured-list__article">
+								<div class="featured-list__image">
+									<img src="./avatar/ava-1.jpg" alt="woman">
+								</div>
+								<div class="featured-list__text">
+									<h3 class="featured-list__title">
+										<a href="#">Do A Sporting Stag Do In Birmingham</a>
+									</h3>
+									<time class="featured-list__time" datetime="2020-12-13 00:00">13 Dec 2020</time>
+								</div>
+							</article>
+						</li>
+						<li class="featured-list__item">
+							<article class="featured-list__article">
+								<div class="featured-list__image">
+									<img src="./avatar/ava-2.jpg" alt="woman">
+								</div>
+								<div class="featured-list__text">
+									<h3 class="featured-list__title">
+										<a href="#">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+									</h3>
+									<time class="featured-list__time" datetime="2020-12-13 00:00">13 Dec 2020</time>
+								</div>
+							</article>
+						</li>
+						<li class="featured-list__item">
+							<article class="featured-list__article">
+								<div class="featured-list__image">
+									<img src="./avatar/ava-3.jpg" alt="woman">
+								</div>
+								<div class="featured-list__text">
+									<h3 class="featured-list__title">
+										<a href="#">Stu Unger Rise And Fall Of A Poker Genius</a>
+									</h3>
+									<time class="featured-list__time" datetime="2020-12-13 00:00">13 Dec 2020</time>
+								</div>
+							</article>
+						</li>
+						<li class="featured-list__item">
+							<article class="featured-list__article">
+								<div class="featured-list__image">
+									<img src="./avatar/ava-4.jpg" alt="woman">
+								</div>
+								<div class="featured-list__text">
+									<h3 class="featured-list__title">
+										<a href="#">New Ideas For A Low Cost Vacation On Water</a>
+									</h3>
+									<time class="featured-list__time" datetime="2020-12-13 00:00">13 Dec 2020</time>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="featured-video">
+				<div class="container">
+					<h2 class="featured-video__title section__title section__title--center">Featured videos</h2>
+					<p class="featured-video__desc section__desc">
+						The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National
+						Park ranks as three of the most magnificent & awe inspiring.
+					</p>
+				</div>
+				<div class="slider-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide featured-video__swiper-slide">
+							<button class="btn-reset slide-play slider__btn--play" aria-label="play video"></button>
+							<video src="./videos/sun.mp4" muted playsinline ></video>
+							<h3 class="slider-title">Mesmerizing Purple Sunrise On Muriwai Beach, NZ</h3>
+						</div>
+						<div class="swiper-slide slider-2">
+							<h3 class="slider-title">Walking On Muriwai Beach In New Zealand</h3>
+						</div>
+						<div class="swiper-slide slider-3">
+							<h3 class="slider-title">A Guide To Rocky Mountain Vacations</h3>
+						</div>
+						<div class="swiper-slide slider-4">
+							<h3 class="slider-title">Fisherman Lake In NZ</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="newsletter">
+				<div class="container">
+					<div class="newsletter__content">
+						<div class="newsletter__text">
+							<h2 class="newsletter__title section__title">Sign Up Our Newsletter</h2>
+							<p class="newsletter__desc">The state of Utah in the United States is home to lots of beautiful National
+								Parks, & Bryce Canyon National Park
+								ranks as three of the most magnificent.</p>
+						</div>
+						<form action="POST" class="newsletter__form subscribe-form">
+							<input class="subcribe-form__field" type="text" name="name" placeholder="Name" required>
+							<input class="subcribe-form__field" type="email" name="email" placeholder="Email" required>
+							<input class="subcribe-form__field" type="tel" name="tel" placeholder="Phone number" required>
+							<button class="btn btn-reset subscribe-form__btn">Sign Up Now</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="insp">
+				<div class="container">
+					<h2 class="insp__title section__title section__title--center">Inspirations</h2>
+					<p class="insp__desc section__desc">The state of Utah in the United States is home to lots of beautiful
+						National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
+					<ul class="grid insp__list">
+						<li class="insp__item insp__item--big inps__item--1">
+							<!-- content -->
+							<div class="insp__item-text">
+								<a href="#" class="insp-item-category">destinations</a>
+								<h3 class="insp-item__title">
+									<a href="#">A Guide To Rocky Mountain Vacations</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-1.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-3.jpg" alt="human2">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-4.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item inps__item--2">
+							<!-- content -->
+							<button class="btn-reset insp__play" aria-label="play video"></button>
+							<div class="insp__item-text">
+								<a href="#" class="insp-item-category">destinations</a>
+								<h3 class="insp-item__title">
+									<a href="#">Traveling To Barcelona</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-6.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-7.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item insp__item--bigheight inps__item--3">
+							<!-- content -->
+							<div class="insp__item-text">
+								<a href="#" class="insp-item-category">destinations</a>
+								<h3 class="insp-item__title">
+									<a href="#">Party Jokes Startling But Unnecessary</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-3.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-1.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item insp__item--bigheight inps__item--4">
+							<!-- content -->
+							<div class="insp__item-text">
+								<h3 class="insp-item__title">
+									<a href="#">Maui By Air The Best Way Around The Island</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-6.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-2.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item insp__item--bigheight inps__item--5">
+							<!-- content -->
+							<div class="insp__item-text">
+								<h3 class="insp-item__title">
+									<a href="#">A Guide To Rocky Mountain Vacations</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-4.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-5.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item inps__item--6">
+							<button class="btn-reset insp__play" aria-label="play video"></button>
+							<!-- content -->
+							<div class="insp__item-text">
+								<a href="#" class="insp-item-category">destinations</a>
+								<h3 class="insp-item__title">
+									<a href="#">Traveling To Barcelona</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-1.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-7.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+						<li class="insp__item insp__item--big inps__item--7">
+							<!-- content -->
+							<div class="insp__item-text">
+								<h3 class="insp-item__title">
+									<a href="#">A Guide To Rocky Mountain Vacations</a>
+								</h3>
+								<ul class="insp-item-people">
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-3.jpg" alt="human1">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-1.jpg" alt="human2">
+									</li>
+									<li class="insp__item-ava">
+										<img src="./img/insp/insp-ava-6.jpg" alt="human2">
+									</li>
+								</ul>
+							</div>
+							<!-- //content -->
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer__container flex">
+				<nav class="footer__column">
+					<h2 class="footer__title">Company</h2>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="#" class="footer__link">about</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">press</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">blog</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">careers</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">security</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">driver center</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="footer__column">
+					<h2 class="footer__title">Information</h2>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="#" class="footer__link">our story</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">recipes</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">nutrition</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">resources</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">newsletter</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">contacts</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="footer__column">
+					<h2 class="footer__title">Information</h2>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="#" class="footer__link">customer services</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">recommend a restaurant</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">signup a restaurant</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">jobs</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">press</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">terms of use</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__column">
+					<h2 class="footer__title">subscribe now</h2>
+					<form action="POST" class="subs-form">
+						<input type="email" name="email" placeholder="Your email" class="subs-form__field">
+						<button class="btn-reset btn subs-form__btn">subscribe now</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="footer__bottom">
+		<div class="container bottom__container flex">
+			<small class="footer__copy">
+				© 2020 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.
+			</small>
+			<ul class="footer__links">
+				<li class="footer__links-item">
+					<a href="" class="footer__link">Terms of Service</a>
+				</li>
+				<li class="footer__links-item">
+					<a href="" class="footer__link">Privacy Policy</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script src="libs/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
